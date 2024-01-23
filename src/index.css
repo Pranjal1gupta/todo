@@ -1,0 +1,110 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  background-color: #211f1f; 
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+.back{
+  background-color: #3c3c3c;
+  min-height: 393px;
+}
+
+.primaryBtn
+{
+  background-color: rgb(0, 153, 230);
+  color: white;
+  border: none;
+  border-radius: 4px;
+  padding: 10px;
+  cursor: pointer;
+  width: 70px;
+}
+
+.primaryBtn:hover{
+  background-color: rgb(8, 88, 128);
+}
+
+.secondaryBtn
+{
+  background-color: rgb(114, 114, 114);
+  color: white;
+  border: none;
+  border-radius: 0px;
+  padding: 10px;
+  cursor: pointer;
+  width: fit-content;
+}
+
+.active
+{
+  background-color: rgb(0, 153, 230);
+}
+
+.todo-list{
+  display: flex;
+  flex-direction: column;
+  border-radius: 50px;
+}
+
+.todo-list-item
+{
+  border-radius: 5px;
+  background-color: #616060;
+  display: flex;
+  justify-content: space-between;
+  padding: 25px;
+  padding-bottom: 10px;
+  padding-top: 10px;
+  margin-bottom: 10px;
+  color: white;
+  box-shadow: 1px 4px 7px rgb(43, 42, 42);
+}
+
+
+.todo-list-item h3
+{
+  font-size: 25px;
+  color: rgb(32, 174, 245);
+  font-weight: bold;
+  text-transform: capitalize;
+  margin: 0;
+}
+
+.todo-list-item p{
+  font-size: 14px;
+  color: rgb(193, 193, 193);
+  margin-top: 0px;
+  text-transform: capitalize;
+}
+
+.icon
+{
+  font-size: 25px;
+  cursor: pointer;
+  color: rgb(251, 56, 56);
+}
+
+.icon:hover
+{
+  color: rgb(174, 15, 15);
+}
+
+.check-icon{
+  font-size: 25px;
+  margin-left: 10px;
+  color: rgb(0, 230, 65);
+  cursor: pointer;
+}
+
+.check-icon:hover{
+  color: rgb(9, 174, 56);
+}
